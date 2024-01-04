@@ -1,0 +1,54 @@
+@import "../../assets/sass/variables.scss";
+
+.footer_section {
+  .footer_content {
+    border-top: 1px solid #dedede;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: $paragraph-color;
+  }
+  h4 {
+    color: $theme-color;
+    font-weight: 300;
+    font-size: 32px;
+    margin-bottom: 1.5rem;
+  }
+  p {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    a {
+      font-weight: 600;
+      margin-left: 5px;
+    }
+  }
+  ul {
+    list-style: none;
+    padding-left: 0;
+    li {
+      line-height: 34px;
+      letter-spacing: 0.5px;
+
+      svg {
+        color: $theme-color;
+        margin-right: 0.35rem;
+        width: 20px;
+        height: 20px;
+      }
+    }
+    &.contact_info {
+      li {
+        font-size: 14px;
+      }
+    }
+  }
+  .copyright {
+    text-align: center;
+    border-top: 1px solid #dedede;
+    padding: 1rem 0;
+    span {
+      color: $secondary-color;
+      font-weight: 300;
+    }
+  }
+}

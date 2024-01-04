@@ -1,0 +1,92 @@
+// .heroslider-medical {
+//   //   height: 500px;
+
+//   .awssld {
+//     height: 800px;
+//   }
+// }
+
+.each-slide-effect > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 350px;
+}
+
+.each-slide-effect span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+
+.indicator {
+  cursor: pointer;
+  // padding: 10px;
+  text-align: center;
+  border: 1px #666 solid;
+  margin: 0;
+  opacity: 0.7;
+  transition: all 0.35s ease-in-out;
+  img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+.indicator.active {
+  color: #fff;
+  background: #666;
+  opacity: 1;
+}
+
+.each-slide {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  > div {
+    width: 75%;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  p {
+    width: 25%;
+    font-size: 1em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: #adceed;
+  }
+}
+
+.react-slideshow-container {
+  > button.nav {
+    width: 30px;
+    background: none;
+    border: 0px;
+    &.prev_arrow {
+      margin-left: 50px;
+    }
+    &.next_arrow {
+      margin-right: 50px;
+    }
+    @media screen and (max-width: 540px) {
+      &.prev_arrow,
+      &.next_arrow {
+        display: none;
+      }
+    }
+  }
+  .slider-image {
+    height: 350px;
+    @media screen and (min-width: 541px) {
+      height: 700px;
+    }
+  }
+}

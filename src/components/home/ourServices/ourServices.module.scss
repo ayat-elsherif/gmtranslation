@@ -1,0 +1,33 @@
+@import "assets/sass/variables.scss";
+
+.our_services {
+  margin-bottom: 3rem;
+  h2 {
+    // font-size: 36px;
+    font-size: calc(30.25px + 0.3vw);
+    color: $theme-color;
+    line-height: 48px;
+    line-height: calc(41px + 0.3vw);
+  }
+  p {
+    font-size: 26px;
+    line-height: 42px;
+    color: $paragraph-color;
+    font-weight: 200;
+  }
+
+  ul {
+    list-style-type: none;
+    margin-top: 1rem;
+    padding-left: 0;
+    li {
+      color: $main-title;
+      // font-size: 20px;
+      font-size: calc(18px + 0.1vw);
+      // line-height: 34px;
+      line-height: calc(28.5px + 0.3vw);
+      margin-bottom: 0.75rem;
+      font-weight: 500;
+    }
+  }
+}

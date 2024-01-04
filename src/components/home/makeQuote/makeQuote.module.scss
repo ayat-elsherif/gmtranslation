@@ -1,0 +1,50 @@
+@import "assets/sass/variables.scss";
+.make_quote {
+  background: url("../../../../public/parallax2.jpg") fixed;
+  height: 400px;
+  margin-bottom: 3rem;
+
+  .free_quote {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    padding: 60px 0;
+    h4 {
+      font-size: 46px;
+      font-weight: 300;
+      letter-spacing: 2px;
+      line-height: 70px;
+      text-align: center;
+      strong {
+        color: #ffff00;
+      }
+    }
+    span {
+      cursor: pointer;
+      background-color: #fff;
+      color: $theme-color;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 80px;
+      transition: all 0.35s ease-in;
+      &:hover {
+        transform: scale(1.1);
+      }
+      svg {
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+  @media screen and (max-width: 767px) {
+    height: 370px;
+    .free_quote {
+      height: 380px;
+    }
+  }
+}

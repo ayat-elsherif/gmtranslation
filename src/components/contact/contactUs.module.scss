@@ -1,0 +1,44 @@
+@import "assets/sass/variables.scss";
+.contact_us {
+  header {
+    position: relative;
+    .header_img {
+      position: relative;
+      img {
+        width: 100%;
+      }
+      .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000000aa;
+      }
+    }
+
+    .header_caption {
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 40px;
+      color: $secondary-color;
+      left: 50%;
+      .dash_anime {
+        animation: flashingDash 1.5s step-start infinite;
+      }
+    }
+  }
+}
+
+@keyframes flashingDash {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
