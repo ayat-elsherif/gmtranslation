@@ -18,15 +18,20 @@ a {
 }
 
 .inner_page {
-  background-color: green;
-}
-.inner_page {
   header {
     position: relative;
     .header_img {
       position: relative;
+
       img {
         width: 100%;
+        object-fit: cover;
+        @media screen and (max-width: 991px) {
+          height: 450px;
+        }
+        @media screen and (max-width: 575px) {
+          height: 350px;
+        }
       }
       .overlay {
         position: absolute;
@@ -40,11 +45,15 @@ a {
 
     .header_caption {
       position: absolute;
-      top: 50%;
+      top: 55%;
       transform: translate(-50%, -50%);
-      font-size: 40px;
+      font-size: 35px;
       color: $secondary-color;
       left: 50%;
+      @media screen and (min-width: 576px) {
+        font-size: 40px;
+        top: 50%;
+      }
       .dash_anime {
         animation: flashingDash 1.5s step-start infinite;
       }

@@ -76,7 +76,7 @@
     &.next_arrow {
       margin-right: 50px;
     }
-    @media screen and (max-width: 540px) {
+    @media screen and (max-width: 575) {
       &.prev_arrow,
       &.next_arrow {
         display: none;
@@ -85,7 +85,7 @@
   }
   .slider-image {
     height: 350px;
-    @media screen and (min-width: 541px) {
+    @media screen and (min-width: 576px) {
       height: 700px;
     }
   }

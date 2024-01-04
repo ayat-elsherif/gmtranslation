@@ -79,7 +79,7 @@ export default function AllServices() {
             </p>
           </Col>
         </Row>
-        <Row>
+        <Row className="mb-md-4">
           <Col>
             {" "}
             <h4>Content creation</h4>
@@ -90,14 +90,13 @@ export default function AllServices() {
             </p>
             <ol>
               <li>
-                <span className={styles["numbering"]}>1</span>
+                {/* <span className={styles["numbering"]}>1</span> */}
                 <span>
                   <strong>Strategic Planning: </strong> Defining goals, target
                   audience, and the message or information to be conveyed.
                 </span>
               </li>
               <li>
-                <span className={styles["numbering"]}> 2</span>
                 <span>
                   {" "}
                   <strong>Research:</strong>
@@ -105,7 +104,6 @@ export default function AllServices() {
                 </span>
               </li>
               <li>
-                <span className={styles["numbering"]}>3</span>
                 <span>
                   <strong>Idea Generation:</strong>
                   Generating ideas and concepts for the content, considering
@@ -114,14 +112,12 @@ export default function AllServices() {
                 </span>
               </li>
               <li>
-                <span className={styles["numbering"]}>4</span>
                 <span>
                   <strong>Writing:</strong> Creating articles, blog posts, copy,
                   or other written material.
                 </span>
               </li>
               <li>
-                <span className={styles["numbering"]}> 5</span>
                 <span>
                   <strong>Visual Design: </strong> Creating graphics, images, or
                   other visual elements to enhance the overall appeal and
@@ -129,7 +125,6 @@ export default function AllServices() {
                 </span>
               </li>
               <li>
-                <span className={styles["numbering"]}>6</span>
                 <span>
                   <strong>Multimedia Integration:</strong> Incorporating
                   multimedia elements such as videos, podcasts, or interactive
@@ -137,7 +132,6 @@ export default function AllServices() {
                 </span>
               </li>
               <li>
-                <span className={styles["numbering"]}>7</span>
                 <span>
                   <strong>Quality Assurance:</strong>
                   Ensuring the content is free from errors, maintaining a

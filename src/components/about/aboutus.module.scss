@@ -1,13 +1,13 @@
 @import "assets/sass/variables.scss";
-.our_agency {
+.aboutus_brief {
   margin-top: 3rem;
   margin-bottom: 3rem;
   h2 {
     // font-size: 36px;
     font-size: calc(30.25px + 0.3vw);
+    line-height: calc(41px + 0.3vw);
     color: $theme-color;
     line-height: 48px;
-    line-height: calc(41px + 0.3vw);
   }
   p {
     // font-size: 26px;
