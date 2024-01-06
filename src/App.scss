@@ -8,11 +8,20 @@ body {
 a {
   text-decoration: none;
   color: $theme-color;
-  &:global(.active) {
+  &.active {
     color: $main-title !important;
   }
 }
+.main_title {
+  color: $theme-color;
 
+  font-size: calc(28.25px + 0.3vw);
+  line-height: calc(36px + 0.3vw);
+  // font-size: calc(30.25px + 0.3vw);
+  color: $theme-color;
+  // line-height: 48px;
+  // line-height: calc(41px + 0.3vw);
+}
 .App_header {
   position: relative;
 }
@@ -46,10 +55,11 @@ a {
     .header_caption {
       position: absolute;
       top: 55%;
-      transform: translate(-50%, -50%);
+      transform: translateY(-50%);
       font-size: 35px;
       color: $secondary-color;
-      left: 50%;
+      text-align: center;
+      width: 100%;
       @media screen and (min-width: 576px) {
         font-size: 40px;
         top: 50%;

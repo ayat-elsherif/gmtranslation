@@ -1,20 +1,42 @@
 @import "assets/sass/variables.scss";
 .aboutus_brief {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  h2 {
-    // font-size: 36px;
-    font-size: calc(30.25px + 0.3vw);
-    line-height: calc(41px + 0.3vw);
-    color: $theme-color;
-    line-height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 3rem auto;
+
+  .aboutus_caption {
+    padding: 0;
+    h2 {
+      // font-size: 36px;
+      font-size: calc(30.25px + 0.3vw);
+      line-height: calc(41px + 0.3vw);
+      color: $theme-color;
+      line-height: 48px;
+    }
+    p {
+      // font-size: 26px;
+      font-size: calc(20.25px + 0.3vw);
+      // line-height: 42px;
+      line-height: calc(36.25px + 0.3vw);
+      color: $paragraph-color;
+      font-weight: 200;
+    }
   }
-  p {
-    // font-size: 26px;
-    font-size: calc(20.25px + 0.3vw);
-    // line-height: 42px;
-    line-height: calc(36.25px + 0.3vw);
-    color: $paragraph-color;
-    font-weight: 200;
+  .aboutus_img {
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    flex-wrap: nowrap;
+    .aboutus_caption {
+      padding: 0 3rem 0 0;
+    }
+    .aboutus_img {
+      max-width: 100%;
+    }
   }
 }

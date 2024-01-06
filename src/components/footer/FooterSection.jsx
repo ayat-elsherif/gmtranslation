@@ -35,16 +35,7 @@ export default function FooterSection() {
       <Container>
         <div className={styles["footer_content"]}>
           <Row>
-            <Col lg={4}>
-              <h4>Our Agency</h4>
-              <p>
-                For over ten years, our team of experienced translators,
-                interpreters, editors, and proofreaders has been providing
-                comprehensive translation and interpretation services for the
-                Arabic language worldwide.
-              </p>
-            </Col>
-            <Col lg={4}>
+            <Col lg={6}>
               <h4>Contact Us</h4>
               <ul className={styles["contact_info"]}>
                 <li>
@@ -55,7 +46,7 @@ export default function FooterSection() {
                 </li>
               </ul>
             </Col>
-            <Col lg={4}>
+            <Col lg={6}>
               <h4>Get Free Quote</h4>
               <p>
                 Please contact us via
@@ -67,9 +58,9 @@ export default function FooterSection() {
           </Row>
         </div>
       </Container>
-      <div className={styles["copyright"]}>
+      {/* <div className={styles["copyright"]}>
         © Copyright 2024-2025 - <span>Global Medical Translation</span>
-      </div>
+      </div> */}
     </div>
   );
 }

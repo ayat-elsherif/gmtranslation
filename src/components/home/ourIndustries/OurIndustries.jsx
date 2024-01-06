@@ -44,50 +44,49 @@ export default function OurIndustries() {
       paragraph:
         "academic publications, research papers, and international collaborations in the academic and scientific communities..",
     },
-    {
-      number: 8,
-      strong: "Manufacturing and Engineering:",
-      paragraph:
-        "Technical manuals, product specifications, and safety guidelines.",
-    },
-    {
-      number: 9,
-      strong: "Entertainment and Media: ",
-      paragraph:
-        "subtitling, dubbing, and translating scripts for films, TV shows, and other media content.",
-    },
-    {
-      number: 10,
-      strong: "Government and Public Services: ",
-      paragraph:
-        "official documents, public service announcements, and communication with diverse linguistic communities.",
-    },
-    {
-      number: 11,
-      strong: "E-commerce:",
-      paragraph:
-        "product descriptions, user interfaces, customer support, and marketing to reach a global customer base.",
-    },
-    {
-      number: 12,
-      strong: "Human Resources:",
-      paragraph:
-        "HR policies, training materials, and internal communications to ensure consistency and understanding across diverse teams.",
-    },
-    {
-      number: 13,
-      strong: "Nonprofit and NGOs:",
-      paragraph:
-        "outreach materials, reports, and communication with communities around the world.",
-    },
+    // {
+    //   number: 8,
+    //   strong: "Manufacturing and Engineering:",
+    //   paragraph:
+    //     "Technical manuals, product specifications, and safety guidelines.",
+    // },
+    // {
+    //   number: 9,
+    //   strong: "Entertainment and Media: ",
+    //   paragraph:
+    //     "subtitling, dubbing, and translating scripts for films, TV shows, and other media content.",
+    // },
+    // {
+    //   number: 10,
+    //   strong: "Government and Public Services: ",
+    //   paragraph:
+    //     "official documents, public service announcements, and communication with diverse linguistic communities.",
+    // },
+    // {
+    //   number: 11,
+    //   strong: "E-commerce:",
+    //   paragraph:
+    //     "product descriptions, user interfaces, customer support, and marketing to reach a global customer base.",
+    // },
+    // {
+    //   number: 12,
+    //   strong: "Human Resources:",
+    //   paragraph:
+    //     "HR policies, training materials, and internal communications to ensure consistency and understanding across diverse teams.",
+    // },
+    // {
+    //   number: 13,
+    //   strong: "Nonprofit and NGOs:",
+    //   paragraph:
+    //     "outreach materials, reports, and communication with communities around the world.",
+    // },
   ];
   return (
     <div className={styles["our_industries"]}>
       <Container>
         <Row>
           <Col>
-            {" "}
-            <h2>Our Industries</h2>
+            <h2 className="main_title">Industries</h2>
             <p>
               Our Translation services covers various industries that heavily
               rely on translation services:
@@ -95,9 +94,7 @@ export default function OurIndustries() {
             <ol>
               {allIndustries.map((industry) => (
                 <li>
-                  <span className={styles["numbering"]}>
-                    {industry.number}{" "}
-                  </span>{" "}
+                  <span className={styles["numbering"]}>{industry.number}</span>
                   <span>
                     <strong>{industry.strong}</strong>
                     {industry.paragraph}

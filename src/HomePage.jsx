@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import styles from "./App.module.scss";
+import "./App.scss";
 import HeroSlider from "components/heroSlider/HeroSlider";
 import OurAgency from "components/home/OurAgency/OurAgency";
 import OurServices from "components/home/ourServices/OurServices";
@@ -11,8 +11,8 @@ import HeroCaption from "components/heroCaption/HeroCaption";
 export default function HomePage() {
   window.scroll(0, 0);
   return (
-    <div className={styles["App"]}>
-      <header className={styles["App_header"]}>
+    <div className="App">
+      <header className="App_header">
         <HeroSlider />
         <HeroCaption />
       </header>

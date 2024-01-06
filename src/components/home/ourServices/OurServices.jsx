@@ -5,7 +5,7 @@ export default function OurServices() {
   return (
     <div className={styles["our_services"]}>
       <Container>
-        <h2>Our Services</h2>
+        <h2 className="main_title">Our Services</h2>
         <ul>
           <li>• Translation</li>
           <li>• Proofreading</li>

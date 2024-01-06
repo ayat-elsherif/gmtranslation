@@ -16,9 +16,31 @@
   }
   .hero_slogan {
     // font-size: 40px;
-    font-size: calc(17px + 1.1vw);
+    font-size: calc(14px + 1vw);
     font-weight: 200;
+    text-transform: uppercase;
+    font-weight: 600;
     color: #fff;
-    // font-style: italic;
+
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.07055322128851538) 25%,
+      rgba(255, 255, 255, 1) 73%
+    );
+    background: rgb(70, 70, 70);
+    background: linear-gradient(
+      90deg,
+      rgba(100, 100, 100, 0.936) 40%,
+      rgba(255, 255, 255, 1) 69%
+    );
+
+    /** TEXT GRADIENT */
+    color: #ccc;
+    // background-image: -webkit-linear-gradient(45deg, #ccc 8%, #fff 77%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
   }
 }

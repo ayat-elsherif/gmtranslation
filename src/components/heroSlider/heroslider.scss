@@ -70,17 +70,15 @@
     width: 30px;
     background: none;
     border: 0px;
-    &.prev_arrow {
-      margin-left: 50px;
-    }
+    // &.prev_arrow {
+    //   margin-left: 50px;
+    // }
+    // &.next_arrow {
+    //   margin-right: 50px;
+    // }
+    &.prev_arrow,
     &.next_arrow {
-      margin-right: 50px;
-    }
-    @media screen and (max-width: 575) {
-      &.prev_arrow,
-      &.next_arrow {
-        display: none;
-      }
+      display: none;
     }
   }
   .slider-image {
