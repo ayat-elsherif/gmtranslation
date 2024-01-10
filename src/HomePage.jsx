@@ -7,6 +7,7 @@ import AllServices from "components/home/AllServices/AllServices";
 import OurIndstries from "components/home/ourIndustries/OurIndustries";
 import MakeQuote from "components/home/makeQuote/MakeQuote";
 import HeroCaption from "components/heroCaption/HeroCaption";
+import AllDialects from "components/home/allDialects/AllDialects";
 
 export default function HomePage() {
   window.scroll(0, 0);
@@ -19,8 +20,9 @@ export default function HomePage() {
       <main>
         <OurAgency />
         <OurServices />
-        <MakeQuote />
+        <AllDialects />
         <AllServices />
+        <MakeQuote />
         <OurIndstries />
       </main>
     </div>

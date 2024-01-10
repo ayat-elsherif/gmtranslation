@@ -39,7 +39,7 @@ export default function FooterSection() {
               <h4>Contact Us</h4>
               <ul className={styles["contact_info"]}>
                 <li>
-                  <span>{svgMap}</span> Cairo - 5th Settlements.
+                  <span>{svgMap}</span> The Fifth Settlement, Cairo - Egypt.
                 </li>
                 <li>
                   <span>{svgMail}</span> projects@globalmedicaltranslation.com

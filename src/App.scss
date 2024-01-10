@@ -7,7 +7,7 @@ body {
 
 a {
   text-decoration: none;
-  color: $theme-color;
+  color: $theme-color !important;
   &.active {
     color: $main-title !important;
   }
@@ -19,8 +19,6 @@ a {
   line-height: calc(36px + 0.3vw);
   // font-size: calc(30.25px + 0.3vw);
   color: $theme-color;
-  // line-height: 48px;
-  // line-height: calc(41px + 0.3vw);
 }
 .App_header {
   position: relative;

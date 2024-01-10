@@ -19,8 +19,8 @@ export default function MakeQuote() {
       <Container>
         <div className={styles["free_quote"]}>
           <h4 className="d-none d-md-block">
-            Feel free to Contact us
-            <br /> and get your <strong>Free Quote</strong>
+            Feel Free to Contact Us
+            <br /> and Get Your <strong>Free Quote</strong>
           </h4>
           <h4 className="d-block d-md-none">
             Contact us,

@@ -48,7 +48,7 @@ export default function ContactUs() {
               <h2>Contact Us</h2>
               <ul className={styles["contact_info"]}>
                 <li>
-                  <span>{svgMap}</span> Cairo - 5th Settlements.
+                  <span>{svgMap}</span> The Fifth Settlement, Cairo - Egypt.
                 </li>
                 <li>
                   <span>{svgMail}</span> projects@globalmedicaltranslation.com
@@ -56,7 +56,6 @@ export default function ContactUs() {
               </ul>
             </div>
             <div className={styles["contactus_img"]}>
-              {/* <img src="./contactus-graph.jpg" alt="about us graph" /> */}
               <span className="d-none d-lg-block">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27641.276024654475!2d31.40567661035921!3d30.003576111325735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583cc75436d909%3A0x7f921d4528ec3e03!2sThe%205th%20Settlement%2C%20New%20Cairo%201%2C%20Cairo%20Governorate!5e0!3m2!1sen!2seg!4v1704573557181!5m2!1sen!2seg"

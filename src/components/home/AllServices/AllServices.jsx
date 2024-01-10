@@ -49,7 +49,7 @@ export default function AllServices() {
         </Row>
         <Row className={`mb-md-4 ${styles["content_creation"]}`}>
           <Col>
-            <h2 className="main_title">Content creation</h2>
+            <h2 className="main_title">Content Creation</h2>
             <p>
               We offer content creation services across various fields, with a
               specialized focus on the medical and scientific domains.
