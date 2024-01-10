@@ -16,7 +16,7 @@ export default function OurAgency() {
             </p>
           </Col>
           <Col md={{ span: 4, offset: 1 }}>
-            <img src="./our-agency.jpg" al="our agency" />
+            <img src="./our-agency.jpg" alt="our agency" />
           </Col>
         </Row>
       </Container>
