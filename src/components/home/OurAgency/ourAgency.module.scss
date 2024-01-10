@@ -10,6 +10,11 @@
   //   line-height: calc(41px + 0.3vw);
 
   // }
+  :global(.main_title) {
+    @media screen and (max-width: 991px) {
+      margin-top: 2rem;
+    }
+  }
   p {
     // font-size: 26px;
     font-size: calc(20.25px + 0.3vw);

@@ -5,14 +5,11 @@ export default function OurServices() {
   return (
     <div className={styles["our_services"]}>
       <Container>
-        <Row>
-          <Col xl={4} lg={5}>
-            <img src="all-dialects.png" alt="all-dialects-graph" />
-          </Col>
+        <Row className="align-items-center">
           <Col
             // md={{ span: 6 }}
-            lg={{ span: 4, offset: 2 }}
-            xl={{ span: 4, offset: 4 }}
+            xl={5}
+            lg={5}
           >
             <h2 className="main_title">Our Services</h2>
             <ul>
@@ -24,6 +21,9 @@ export default function OurServices() {
               <li>• Transcreation</li>
               <li>• Content creation</li>
             </ul>
+          </Col>
+          <Col lg={{ span: 4, offset: 2 }} xl={{ span: 5, offset: 2 }}>
+            <img src="all-dialects.png" alt="all-dialects-graph" />
           </Col>
         </Row>
       </Container>
