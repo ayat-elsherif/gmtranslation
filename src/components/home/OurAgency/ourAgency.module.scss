@@ -1,7 +1,7 @@
 @import "assets/sass/variables.scss";
 .our_agency {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
   // h2 {
   //   // font-size: 36px;
   //   font-size: calc(30.25px + 0.3vw);
@@ -32,5 +32,6 @@
   // }
   img {
     border-radius: 5px;
+    max-width: 100%;
   }
 }

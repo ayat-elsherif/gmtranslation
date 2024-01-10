@@ -5,7 +5,7 @@ export default function OurAgency() {
     <div className={styles["our_agency"]}>
       <Container>
         <Row className={"justify-content-between align-items-center"}>
-          <Col md={{ span: 7 }}>
+          <Col xl={{ span: 7 }} lg={6}>
             {" "}
             <h2 className="main_title">Our Agency</h2>
             <p>
@@ -15,7 +15,7 @@ export default function OurAgency() {
               <strong>the Arabic language worldwide.</strong>
             </p>
           </Col>
-          <Col md={{ span: 4, offset: 1 }}>
+          <Col xl={{ span: 4, offset: 1 }} lg={{ span: 5, offset: 1 }}>
             <img src="./our-agency.jpg" alt="our agency" />
           </Col>
         </Row>

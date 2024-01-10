@@ -7,6 +7,7 @@ export default function HeroSlider() {
     { src: "./medical1.jpg", alt: "medical 1", caption: "Slide 1" },
     { src: "./medical2.jpg", alt: "medical 2", caption: "Slide 2" },
     { src: "./medical3.jpg", alt: "medical 3", caption: "Slide 3" },
+    { src: "./medical4.jpg", alt: "medical 4", caption: "Slide 4" },
   ];
 
   const properties = {
