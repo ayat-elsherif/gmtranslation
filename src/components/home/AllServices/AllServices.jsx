@@ -3,7 +3,7 @@ import styles from "./allServices.module.scss";
 
 export default function AllServices() {
   return (
-    <div className={styles["all_services"]}>
+    <div className={styles["all_services"]} id="services">
       <Container>
         <Row>
           <Col lg={{ span: 3, offset: 2 }} md={6} sm={12}>

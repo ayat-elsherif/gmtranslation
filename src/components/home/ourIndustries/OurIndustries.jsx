@@ -82,7 +82,7 @@ export default function OurIndustries() {
     // },
   ];
   return (
-    <div className={styles["our_industries"]}>
+    <div className={styles["our_industries"]} id="industries">
       <Container>
         <Row>
           <Col>

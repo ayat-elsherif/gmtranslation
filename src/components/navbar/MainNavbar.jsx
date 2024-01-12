@@ -54,14 +54,16 @@ export default function MainNavbar() {
             </Nav.Link>
             <NavDropdown title="Services" id="basic-nav-dropdown">
               {allServices.map((service, index) => (
-                <NavDropdown.Item key={index} as="li">
+                <NavDropdown.Item key={index} href="#services">
                   {service}
                 </NavDropdown.Item>
               ))}
             </NavDropdown>
             <NavDropdown title="Industries" id="basic-nav-dropdown">
               {allIndustries.map((industry, index) => (
-                <NavDropdown.Item ke={index}>{industry}</NavDropdown.Item>
+                <NavDropdown.Item key={index} href="#industries">
+                  {industry}
+                </NavDropdown.Item>
               ))}
             </NavDropdown>
             <Nav.Link as="li" onClick={handleNavItemClick}>
